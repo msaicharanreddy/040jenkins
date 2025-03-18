@@ -1,23 +1,15 @@
-import java.util.Scanner;
-
-public class arithmeticoperations {
+public class ArithmeticOperations {
     public static void main(String[] args) {
-        // Create a Scanner object to take user input
-        Scanner scanner = new Scanner(System.in);
-
-        // Taking input from user
-        System.out.println("Enter first number: ");
-        double num1 = scanner.nextDouble();
-
-        System.out.println("Enter second number: ");
-        double num2 = scanner.nextDouble();
+        // Hardcoded numbers for operations
+        double num1 = 10;
+        double num2 = 5;
 
         // Performing arithmetic operations
         double addition = num1 + num2;
         double subtraction = num1 - num2;
         double multiplication = num1 * num2;
         double division = 0;
-        
+
         if (num2 != 0) {
             division = num1 / num2;
         } else {
@@ -31,9 +23,6 @@ public class arithmeticoperations {
         if (num2 != 0) {
             System.out.println("Division: " + division);
         }
-
-        // Closing the scanner
-        scanner.close();
     }
 }
 
