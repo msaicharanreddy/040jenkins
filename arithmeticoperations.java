@@ -1,4 +1,4 @@
-public class ArithmeticOperations {
+public class arithmeticoperations {
     public static void main(String[] args) {
         // Hardcoded numbers for operations
         double num1 = 10;
